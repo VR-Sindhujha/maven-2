@@ -6,7 +6,7 @@ maven'Maven3'
 stages{
 stage('Checkout') {
 steps{
-gitbranch: 'main', url: 'https://github.com/<your-username>/maven-test-demo.git'
+gitbranch: 'main', url: 'https://github.com/VR-Sindhujha/maven-2.git'
 }
 }
 stage('Compile') {
